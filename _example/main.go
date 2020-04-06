@@ -5,8 +5,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/mattn/go-nulltype"
 	_ "github.com/mattn/go-sqlite3"
+
+	"github.com/sokel/go-nulltype"
 )
 
 func main() {
